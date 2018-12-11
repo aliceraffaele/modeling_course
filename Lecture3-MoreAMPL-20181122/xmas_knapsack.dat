@@ -1,0 +1,14 @@
+# Wallet capacity
+param BUDGET := 500;
+
+# Possible GIFTS to choose to be part of the subset S to buy for Xmas:
+param:  GIFTS:         VALUE	   PRICE :=
+        Lego              50     150
+        Books             50      50
+        Barbie            30      70
+        Monopoly          35      30
+        Cards        	  10      15
+        Pencils			  10	      10
+        Netbook 		  	  70	     400
+        Karaoke			  25	      40
+;

@@ -1,0 +1,10 @@
+reset;
+model xmas_knapsack.mod;
+data xmas_knapsack.dat;
+option solver cplex;
+solve;
+display x;
+
+option relax_integrality 1;
+solve;
+display x;
